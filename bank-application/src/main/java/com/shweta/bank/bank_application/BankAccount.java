@@ -7,7 +7,7 @@ package com.shweta.bank.bank_application;
  *
  */
 
-public abstract class BankAccount {
+public abstract class BankAccount implements Comparable<BankAccount> {
 	
 	int accountNo;
 	String accountHolderName;
@@ -58,6 +58,12 @@ public abstract class BankAccount {
 	public String toString() {
 		return "BankAccount [accountNo=" + accountNo + ", accountHolderName=" + accountHolderName + ", accountBalance="
 				+ accountBalance + "]";
+	}
+
+	@Override
+	public int compareTo(BankAccount account) {
+		return account.getAccountNo()+getAccountNo();
+		
 	}
 
 }

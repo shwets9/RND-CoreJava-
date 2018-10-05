@@ -7,7 +7,7 @@ public class SavingsAccount2 extends SavingsAccount implements Interest {
 	int insuranceId;
 	String insuranceName;
 	
-	public SavingsAccount2() {
+	public SavingsAccount2(int insuranceId, String insuranceName) {
 		super();
 		this.insuranceId = 567;
 		this.insuranceName = "JanDhanYojna";
