@@ -1,0 +1,24 @@
+"2018-10-10 16:01:36.018 [main] INFO  c.e.demo.DemoLoggingApplication - Starting DemoLoggingApplication on BLRTRNGFT04010 with PID 5000 (started by ssrivas9 in C:\Users\ssrivas9\Downloads\R&D WorkSpace\DemoLogging) 
+""2018-10-10 16:01:36.020 [main] INFO  c.e.demo.DemoLoggingApplication - No active profile set, falling back to default profiles: default 
+""2018-10-10 16:01:36.049 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e802ef9: startup date [Wed Oct 10 16:01:36 IST 2018]; root of context hierarchy 
+""2018-10-10 16:01:36.665 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3562 (http) 
+""2018-10-10 16:01:36.679 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+""2018-10-10 16:01:36.679 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34 
+""2018-10-10 16:01:36.682 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Users\ssrivas9\AppData\Local\GitHubDesktop\bin;C:\Users\ssrivas9\Desktop\sts-bundle\sts-3.9.5.RELEASE;;.] 
+""2018-10-10 16:01:36.762 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+""2018-10-10 16:01:36.762 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 713 ms 
+""2018-10-10 16:01:36.806 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+""2018-10-10 16:01:36.809 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+""2018-10-10 16:01:36.809 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+""2018-10-10 16:01:36.809 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+""2018-10-10 16:01:36.809 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+""2018-10-10 16:01:36.874 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+""2018-10-10 16:01:36.982 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e802ef9: startup date [Wed Oct 10 16:01:36 IST 2018]; root of context hierarchy 
+""2018-10-10 16:01:37.018 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+""2018-10-10 16:01:37.019 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+""2018-10-10 16:01:37.034 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+""2018-10-10 16:01:37.034 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+""2018-10-10 16:01:37.129 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+""2018-10-10 16:01:37.159 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3562 (http) with context path '' 
+""2018-10-10 16:01:37.161 [main] INFO  c.e.demo.DemoLoggingApplication - Started DemoLoggingApplication in 1.354 seconds (JVM running for 1.999) 
+"
